@@ -1,2 +1,12 @@
-package mo.jafa.tacocloud;public class Taco {
+package mo.jafa.tacocloud;
+
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+public class Taco {
+    private String name;
+    private List<Ingredient> ingredients;
+
 }
