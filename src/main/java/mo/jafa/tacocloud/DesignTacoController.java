@@ -59,6 +59,7 @@ public class DesignTacoController {
 //        log.info("Processing taco: " + taco);
 //        return "redirect:/orders/current";
 //    }
+    @PostMapping
     public String processTaco(
             @Valid Taco taco, Errors errors,
             @ModelAttribute TacoOrder tacoOrder) {
