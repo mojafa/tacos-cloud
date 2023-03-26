@@ -1,2 +1,9 @@
-package mo.jafa.tacocloud;public class ingredientRef {
+package mo.jafa.tacocloud;
+
+import lombok.Data;
+
+@Data
+public class IngredientRef {
+    private final String ingredient;
+
 }
